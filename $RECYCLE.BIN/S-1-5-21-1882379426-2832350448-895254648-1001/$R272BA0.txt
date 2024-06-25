@@ -1,7 +1,0 @@
-echo '* text=auto' >> .gitattributes
-echo '*.js text' >> .gitattributes
-echo '*.json text' >> .gitattributes
-echo '*.sh text eol=lf' >> .gitattributes
-echo '*.bat text eol=crlf' >> .gitattributes
-echo '*.png binary' >> .gitattributes
-echo '*.jpg binary' >> .gitattributes

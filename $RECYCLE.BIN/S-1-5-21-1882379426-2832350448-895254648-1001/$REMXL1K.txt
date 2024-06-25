@@ -1,2 +1,0 @@
-echo '$RECYCLE.BIN/' >> .gitignore
-echo 'System Volume Information/' >> .gitignore
