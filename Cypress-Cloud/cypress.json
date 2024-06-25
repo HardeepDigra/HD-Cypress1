@@ -1,4 +1,20 @@
 {
+  "video": true,
+  "videoUploadOnPasses": false,
+  "videoCompression": 32,
+  "videosFolder": "cypress/videos",
+
+  "screenshotsFolder": "cypress/screenshots",
+  "screenshotsOnRunFailure": true,
+
+  "viewportWidth": 1440,
+  "viewportHeight": 900,
+  "blacklistHosts": ["example.com"],
+  "chromeWebSecurity": false,
+  "numTestsKeptInMemory": 50,
+  "defaultCommandTimeout": 4000,
+  "requestTimeout": 600000,
+
   "projectId": "n54w4o",
   "pageLoadTimeout": 900000,
   "pluginsFile": false,
