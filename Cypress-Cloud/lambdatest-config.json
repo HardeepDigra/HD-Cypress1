@@ -1,0 +1,57 @@
+{
+   "lambdatest_auth": {
+      "username": "hardeepdigra123",
+      "access_key": "I6oWONolz1iOLMYzeHyEBIVjYhS4eKdYPHrHDtGNd6wItRONsU"
+},
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      },
+
+      {
+         "browser": "Chrome",
+         "platform": "macOS Catalina",
+         "versions": [
+            "latest-1"
+         ]
+      },
+
+      {
+         "browser": "Electron",
+         "platform": "macOS Catalina",
+         "versions": [
+            "latest"
+         ]
+      }
+   ],
+   "run_settings": {
+      "cypress_config_file": "cypress.json",
+
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "build-name",
+      "parallels": 1,
+      "specs": "./cypress/e2e/Tests/*.spec.js",
+
+      "ignore_files": "",
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "9.6"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": true,
+      "tunnel_name": "lt-cypress-tunnel"
+   }
+}

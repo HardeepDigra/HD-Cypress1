@@ -1,0 +1,18 @@
+{
+  "projectId": "n54w4o",
+  "pageLoadTimeout": 900000,
+  "pluginsFile": false,
+  "env": {
+    "cypress-audit": {
+      "thresholds": {
+        "performance": 85,
+        "seo": 85,
+        "accessibility": 85
+      }
+    }
+  }
+}
+
+
+  
+
