@@ -22,6 +22,7 @@ module.exports = (on, config) => {
 }
 
 
+
 const { lighthouse, prepareAudit } = require('cypress-audit');
 
 module.exports = (on, config) => {
